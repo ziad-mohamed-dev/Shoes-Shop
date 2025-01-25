@@ -1,50 +1,16 @@
 import "./Recommended.css";
+import Button from "../components/Buttons";
 
 const Recommended = ({ handelQueryChange }) => {
 	return (
 		<div className="recommended-container">
 			<h2 className="recommended-title">Recommended</h2>
-			<div className="recommended-btns">
-				<button
-					className="btns"
-					name="company"
-					value="all"
-					onClick={handelQueryChange}
-				>
-					All Products
-				</button>
-				<button
-					className="btns"
-					name="company"
-					value="nike"
-					onClick={handelQueryChange}
-				>
-					Nike
-				</button>
-				<button
-					className="btns"
-					name="company"
-					value="adidas"
-					onClick={handelQueryChange}
-				>
-					Adidas
-				</button>
-				<button
-					className="btns"
-					name="company"
-					value="puma"
-					onClick={handelQueryChange}
-				>
-					Puma
-				</button>
-				<button
-					className="btns"
-					name="company"
-					value="vans"
-					onClick={handelQueryChange}
-				>
-					Vans
-				</button>
+			<div className="recommended-btns" onClick={handelQueryChange}>
+				<Button name="company" value="all" title="All Products" />
+				<Button name="company" value="nike" title="Nike" />
+				<Button name="company" value="adidas" title="Adidas" />
+				<Button name="company" value="puma" title="Puma" />
+				<Button name="company" value="vans" title="Vans" />
 			</div>
 		</div>
 	);

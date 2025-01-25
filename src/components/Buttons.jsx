@@ -1,5 +1,9 @@
-const Buttons = () => {
-	return <div>Buttons</div>;
+const Button = ({ name, value, title }) => {
+	return (
+		<button className="btns" name={name} value={value}>
+			{title}
+		</button>
+	);
 };
 
-export default Buttons;
+export default Button;
