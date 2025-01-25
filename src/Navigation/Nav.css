@@ -1,0 +1,47 @@
+nav {
+	display: flex;
+	border-bottom: 2px solid #f3f3f3;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	position: sticky;
+	top: 0;
+	background-color: white;
+}
+
+.nav-container {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.filter-sidebar {
+	font-size: 1.4rem;
+	display: none;
+	cursor: pointer;
+}
+
+.search-input {
+	padding: 12px 20px;
+	border: none;
+	outline: none;
+	background-color: #f7f6f6;
+	border-radius: 10px;
+	width: 12rem;
+}
+
+.profile-contianer {
+	display: flex;
+	gap: 1rem;
+}
+
+.profile-contianer .nav-icons {
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+@media (max-width: 768px) {
+	.filter-sidebar {
+		display: block;
+	}
+}

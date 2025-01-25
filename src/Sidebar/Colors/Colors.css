@@ -1,0 +1,24 @@
+.input-lable-container label input[id="allColors"] ~ span {
+	background-image: linear-gradient(to right, #5f2c82, #49a09d);
+}
+
+.input-lable-container label input[id="black"] ~ span {
+	background-color: black;
+}
+
+.input-lable-container label input[id="blue"] ~ span {
+	background-color: blue;
+}
+
+.input-lable-container label input[id="red"] ~ span {
+	background-color: red;
+}
+
+.input-lable-container label input[id="green"] ~ span {
+	background-color: green;
+}
+
+.input-lable-container label input[id="white"] ~ span {
+	background-color: white;
+	border: 1px solid;
+}

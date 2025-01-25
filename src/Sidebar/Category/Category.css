@@ -1,0 +1,7 @@
+.input-lable-container label input[name="category"] ~ span {
+	background-color: #eee;
+}
+
+.input-lable-container label input[name="category"]:checked ~ span {
+	background-color: #3996dd;
+}

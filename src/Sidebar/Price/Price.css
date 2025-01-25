@@ -1,0 +1,7 @@
+.input-lable-container label input[name="price"] ~ span {
+	background-color: #eee;
+}
+
+.input-lable-container label input[name="price"]:checked ~ span {
+	background-color: #3996dd;
+}

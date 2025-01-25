@@ -1,0 +1,25 @@
+.recommended-container {
+	margin: 2rem 0 1.5rem 0;
+	padding: 0 20px;
+}
+
+.recommended-title {
+	font-size: 20px;
+	margin-bottom: 0.5rem;
+}
+
+.recommended-btns {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+}
+
+.recommended-btns .btns {
+	padding: 10px 20px;
+	background-color: transparent;
+	border: none;
+	border-radius: 5px;
+	color: #323232;
+	cursor: pointer;
+	border: 0.6px solid #ccc;
+}
